@@ -34,6 +34,21 @@ public class PersonController {
         return ResponseEntity.ok(newPerson);
     }
 
+    /*
+    {
+        "id": 1,
+        "firstName": "Srijan",
+        "lastName": "Veerareddy",
+        "email": "srijan.veerareddy@gmail.com",
+        "personProfile":{
+            "id":1,
+            "gender": "MALE",
+            "birthDate": "2024/01/07",
+            "phoneNumber": "321 321 4321"
+        }
+    }
+     */
+
     @PutMapping
     public ResponseEntity<Person> updatePersonAndPersonProfile(@RequestBody Person person){
         Person newPerson = personService.updatePersonAndPersonProfile(person);
