@@ -1,4 +1,4 @@
-package com.srijan.myjpawork.oneToOne.model;
+package com.srijan.myjpawork.oneToOne.twoWay.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;

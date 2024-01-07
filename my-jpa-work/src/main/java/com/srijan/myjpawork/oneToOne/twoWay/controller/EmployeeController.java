@@ -1,7 +1,7 @@
-package com.srijan.myjpawork.oneToOne.controller;
+package com.srijan.myjpawork.oneToOne.twoWay.controller;
 
-import com.srijan.myjpawork.oneToOne.model.Employee;
-import com.srijan.myjpawork.oneToOne.service.EmployeeService;
+import com.srijan.myjpawork.oneToOne.twoWay.model.Employee;
+import com.srijan.myjpawork.oneToOne.twoWay.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,15 +1,14 @@
-package com.srijan.myjpawork.oneToOne.service;
+package com.srijan.myjpawork.oneToOne.twoWay.service;
 
 import com.srijan.myjpawork.exception.MyCommonApiException;
-import com.srijan.myjpawork.oneToOne.model.Employee;
-import com.srijan.myjpawork.oneToOne.repository.AddressRepository;
-import com.srijan.myjpawork.oneToOne.repository.EmployeeRepository;
+import com.srijan.myjpawork.oneToOne.twoWay.model.Employee;
+import com.srijan.myjpawork.oneToOne.twoWay.repository.AddressRepository;
+import com.srijan.myjpawork.oneToOne.twoWay.repository.EmployeeRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class EmployeeService {

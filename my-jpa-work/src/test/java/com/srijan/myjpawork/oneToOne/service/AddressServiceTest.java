@@ -1,7 +1,9 @@
 package com.srijan.myjpawork.oneToOne.service;
 
-import com.srijan.myjpawork.oneToOne.model.Address;
-import com.srijan.myjpawork.oneToOne.model.Employee;
+import com.srijan.myjpawork.oneToOne.twoWay.model.Address;
+import com.srijan.myjpawork.oneToOne.twoWay.model.Employee;
+import com.srijan.myjpawork.oneToOne.twoWay.service.AddressService;
+import com.srijan.myjpawork.oneToOne.twoWay.service.EmployeeService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
