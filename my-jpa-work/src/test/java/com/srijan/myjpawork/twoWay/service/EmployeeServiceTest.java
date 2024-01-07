@@ -1,4 +1,4 @@
-package com.srijan.myjpawork.oneToOne.service;
+package com.srijan.myjpawork.twoWay.service;
 
 import com.srijan.myjpawork.oneToOne.twoWay.model.Address;
 import com.srijan.myjpawork.oneToOne.twoWay.model.Employee;
